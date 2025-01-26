@@ -329,7 +329,7 @@ GOOGLE_OAUTH_SCOPE = PersistentConfig(
 GOOGLE_REDIRECT_URI = PersistentConfig(
     "GOOGLE_REDIRECT_URI",
     "oauth.google.redirect_uri",
-    os.environ.get("GOOGLE_REDIRECT_URI", ""),
+    os.environ.get("GOOGLE_REDIRECT_URI", "http://localhost:3000/"),
 )
 
 MICROSOFT_CLIENT_ID = PersistentConfig(
