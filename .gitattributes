@@ -1,1 +1,2 @@
 *.sh text eol=lf
+*.file_extension filter=lfs diff=lfs merge=lfs -text
